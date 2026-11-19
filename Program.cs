@@ -15,7 +15,6 @@
             }
             #endregion
 
-
             #region Question_02
             var result02 = new List<string>(Sourse.ProductList.Select(s => s.ProductName));
             foreach (var item in result02)
